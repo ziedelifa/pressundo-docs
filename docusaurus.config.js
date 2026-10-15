@@ -14,11 +14,15 @@ const config = {
   favicon: 'img/favicon.svg',
   url: 'https://docs.pressundo.com',
   baseUrl: '/',
-  organizationName: 'pressundo',
-  projectName: 'pressundo-framework',
+  organizationName: 'ziedelifa',
+  projectName: 'pressundo-docs',
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn'
+    }
+  },
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'fr'],
