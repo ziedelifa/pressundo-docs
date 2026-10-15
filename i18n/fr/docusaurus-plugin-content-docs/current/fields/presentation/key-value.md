@@ -10,7 +10,7 @@ Lignes key/value éditables.
 <div className="pressundo-kv">
 <div><span>Helper</span><b>pu_key_value()</b></div>
 <div><span>Type</span><b>key_value</b></div>
-<div><span>Valeur stockée</span><b>tableau de {key,value}</b></div>
+<div><span>Valeur stockée</span><b>tableau de paires clé/valeur</b></div>
 </div>
 
 ## Exemple
@@ -21,7 +21,7 @@ pu_key_value('headers', ['label' => 'Custom headers']);
 
 ## Valeur stockée
 
-Pressundo stocke ce champ sous la forme **tableau de {key,value}**. Les champs composites conservent des tableaux structurés plutôt que des chaînes CSS opaques, afin que votre application puisse réutiliser chaque valeur.
+Pressundo stocke ce champ sous la forme d’un **tableau de paires clé/valeur**. Les champs composites conservent des tableaux structurés plutôt que des chaînes CSS opaques, afin que votre application puisse réutiliser chaque valeur.
 
 ### Exemple de stockage
 
