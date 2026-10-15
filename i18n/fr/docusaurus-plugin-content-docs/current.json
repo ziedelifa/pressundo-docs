@@ -1,0 +1,22 @@
+{
+  "version.label": {"message": "1.x", "description": "The label for version current"},
+  "sidebar.docsSidebar.category.Getting started": {"message": "Bien démarrer"},
+  "sidebar.docsSidebar.category.Core concepts": {"message": "Concepts clés"},
+  "sidebar.docsSidebar.category.Options pages": {"message": "Pages d’options"},
+  "sidebar.docsSidebar.category.Metaboxes": {"message": "Metaboxes"},
+  "sidebar.docsSidebar.category.Fields": {"message": "Champs"},
+  "sidebar.docsSidebar.category.Basic": {"message": "Basique"},
+  "sidebar.docsSidebar.category.Choices": {"message": "Choix"},
+  "sidebar.docsSidebar.category.Content & media": {"message": "Contenu & média"},
+  "sidebar.docsSidebar.category.Design": {"message": "Design"},
+  "sidebar.docsSidebar.category.WordPress selectors": {"message": "Sélecteurs WordPress"},
+  "sidebar.docsSidebar.category.Presentation & developer": {"message": "Présentation & développeur"},
+  "sidebar.docsSidebar.category.Structure": {"message": "Structure"},
+  "sidebar.docsSidebar.category.Advanced": {"message": "Avancé"},
+  "sidebar.docsSidebar.category.Vafpress migration": {"message": "Migration Vafpress"},
+  "sidebar.docsSidebar.category.Security": {"message": "Sécurité"},
+  "sidebar.docsSidebar.category.API reference": {"message": "Référence API"},
+  "sidebar.docsSidebar.category.Recipes": {"message": "Recettes"},
+  "sidebar.docsSidebar.category.Troubleshooting": {"message": "Dépannage"},
+  "sidebar.docsSidebar.category.Reference": {"message": "Référence"}
+}

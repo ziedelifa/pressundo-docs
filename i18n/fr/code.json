@@ -1,0 +1,11 @@
+{
+  "home.hero.title": {"message": "Des options WordPress modernes, sans le poids du legacy."},
+  "home.hero.subtitle": {"message": "Créez des pages d’options et des metaboxes modernes — ou retirez Vafpress de projets existants et migrez progressivement."},
+  "home.getStarted": {"message": "Commencer"},
+  "home.migrate": {"message": "Migrer depuis Vafpress"},
+  "home.metric.fields": {"message": "types de champs"},
+  "home.metric.skins": {"message": "skins UI"},
+  "home.metric.vafpress": {"message": "champs Vafpress"},
+  "home.metric.api": {"message": "API publique"},
+  "home.path.title": {"message": "Démarrez un nouveau projet, ou modernisez ce qui fonctionne déjà."}
+}

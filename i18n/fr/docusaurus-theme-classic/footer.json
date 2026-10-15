@@ -1,0 +1,13 @@
+{
+  "link.title.Learn": {"message": "Apprendre"},
+  "link.title.Reference": {"message": "Référence"},
+  "link.title.Pressundo": {"message": "Pressundo"},
+  "link.item.label.Get started": {"message": "Commencer"},
+  "link.item.label.All fields": {"message": "Tous les champs"},
+  "link.item.label.Vafpress migration": {"message": "Migration Vafpress"},
+  "link.item.label.Public API v1": {"message": "API publique v1"},
+  "link.item.label.Security": {"message": "Sécurité"},
+  "link.item.label.Troubleshooting": {"message": "Dépannage"},
+  "link.item.label.Changelog": {"message": "Changelog"},
+  "link.item.label.API freeze": {"message": "Gel API"}
+}

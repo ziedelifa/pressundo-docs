@@ -1,0 +1,21 @@
+{
+  "name": "Pressundo Documentation",
+  "site_version": "1.0.0",
+  "framework_version": "1.0.0",
+  "public_api": "1",
+  "documentation_line": "1.x",
+  "domain": "https://docs.pressundo.com",
+  "engine": "Docusaurus 3.10.2",
+  "locales": ["en", "fr"],
+  "english_pages": 112,
+  "french_pages": 112,
+  "field_types_documented": 53,
+  "localized_routes": 226,
+  "search": {
+    "default": "local",
+    "production_recommended": "Algolia DocSearch",
+    "algolia_contextual_search": true
+  },
+  "source_framework_docs": "upstream/pressundo-framework/docs",
+  "source_framework_examples": "upstream/pressundo-framework/examples"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "pressundo-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official documentation website for Pressundo Framework",
+  "scripts": {
+    "start": "docusaurus start",
+    "start:fr": "docusaurus start --locale fr",
+    "build": "docusaurus build",
+    "build:fr": "docusaurus build --locale fr",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "docs:generate": "node scripts/generate-field-docs.mjs",
+    "docs:sync": "node scripts/sync-framework-docs.mjs",
+    "docs:check": "node scripts/check-docs.mjs"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.10.2",
+    "@docusaurus/preset-classic": "3.10.2",
+    "@easyops-cn/docusaurus-search-local": "0.55.3",
+    "@mdx-js/react": "^3.1.1",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "engines": {
+    "node": ">=20.0"
+  }
+}
