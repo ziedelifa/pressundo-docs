@@ -52,7 +52,7 @@ const config = {
       language: ['en', 'fr'],
       indexDocs: true,
       indexPages: true,
-      docsRouteBasePath: '/',
+      docsRouteBasePath: 'docs',
       highlightSearchTermsOnTargetPage: true
     }]
   ],
@@ -64,9 +64,9 @@ const config = {
       logo: {alt: 'Pressundo Framework', src: 'img/logo.svg'},
       items: [
         {type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs'},
-        {to: '/fields', label: 'Fields', position: 'left'},
-        {to: '/vafpress-migration', label: 'Vafpress Migration', position: 'left'},
-        {to: '/api', label: 'API', position: 'left'},
+        {to: '/docs/fields', label: 'Fields', position: 'left'},
+        {to: '/docs/vafpress-migration', label: 'Vafpress Migration', position: 'left'},
+        {to: '/docs/api', label: 'API', position: 'left'},
         {type: 'docsVersionDropdown', position: 'right'},
         {type: 'localeDropdown', position: 'right'},
         {href: 'https://wordpress.org/', label: 'WordPress', position: 'right'}
@@ -76,18 +76,18 @@ const config = {
       style: 'dark',
       links: [
         {title: 'Learn', items: [
-          {label: 'Get started', to: '/getting-started/installation'},
-          {label: 'All fields', to: '/fields'},
-          {label: 'Vafpress migration', to: '/vafpress-migration'}
+          {label: 'Get started', to: '/docs/getting-started/installation'},
+          {label: 'All fields', to: '/docs/fields'},
+          {label: 'Vafpress migration', to: '/docs/vafpress-migration'}
         ]},
         {title: 'Reference', items: [
-          {label: 'Public API v1', to: '/api'},
-          {label: 'Security', to: '/security'},
-          {label: 'Troubleshooting', to: '/troubleshooting'}
+          {label: 'Public API v1', to: '/docs/api'},
+          {label: 'Security', to: '/docs/security'},
+          {label: 'Troubleshooting', to: '/docs/troubleshooting'}
         ]},
         {title: 'Pressundo', items: [
-          {label: 'Changelog', to: '/reference/changelog'},
-          {label: 'API freeze', to: '/reference/api-freeze'}
+          {label: 'Changelog', to: '/docs/reference/changelog'},
+          {label: 'API freeze', to: '/docs/reference/api-freeze'}
         ]}
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Pressundo. Built with Docusaurus.`
