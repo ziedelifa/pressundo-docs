@@ -28,4 +28,4 @@ add_action('after_setup_theme', function () {
 
 ## Existing Vafpress project
 
-Do **not** rewrite everything before installing Pressundo. Follow the [Vafpress migration guide](/vafpress-migration/remove-vafpress).
+Do **not** rewrite everything before installing Pressundo. Follow the [Vafpress migration guide](/docs/vafpress-migration/remove-vafpress).

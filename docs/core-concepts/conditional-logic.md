@@ -14,4 +14,4 @@ pu_text('tracking_id', [
 ]);
 ```
 
-Supported operators include equality/inequality, `in`, `not_in`, numeric comparisons, `empty`, `not_empty`, `truthy`, `falsy`, `contains` and `not_contains`. See [Conditional logic patterns](/advanced/conditional-logic-patterns).
+Supported operators include equality/inequality, `in`, `not_in`, numeric comparisons, `empty`, `not_empty`, `truthy`, `falsy`, `contains` and `not_contains`. See [Conditional logic patterns](/docs/advanced/conditional-logic-patterns).

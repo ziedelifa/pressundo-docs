@@ -25,4 +25,4 @@ add_action('after_setup_theme', function () {
 });
 ```
 
-Pour un projet Vafpress existant, suivez d’abord le [guide de migration](/fr/vafpress-migration/remove-vafpress).
+Pour un projet Vafpress existant, suivez d’abord le [guide de migration](/fr/docs/vafpress-migration/remove-vafpress).

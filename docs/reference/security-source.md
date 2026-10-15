@@ -46,4 +46,4 @@ Applications that later print user-supplied CSS/JS on the front end are responsi
 
 Arbitrary Vafpress callbacks and unsafe PHP template fallback includes are disabled by default. Compatibility registration does not imply execution permission.
 
-See [Vafpress migration](/vafpress-migration) for the explicit opt-in constants.
+See [Vafpress migration](/docs/vafpress-migration) for the explicit opt-in constants.

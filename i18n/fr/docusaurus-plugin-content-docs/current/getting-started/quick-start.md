@@ -37,4 +37,4 @@ Les valeurs sont sanitizées selon leur type lors de la sauvegarde. L’échappe
 echo esc_html($title);
 ```
 
-Suite : [create a metabox](./first-metabox.md) or browse [all 53 field types](/fields).
+Suite : [create a metabox](./first-metabox.md) or browse [all 53 field types](/fr/docs/fields).

@@ -13,4 +13,4 @@ if (pu_api_version() !== '1') {
 }
 ```
 
-Consultez l’[index des helpers](/fr/reference/helper-index) pour les signatures et le [gel API](/fr/reference/api-freeze) pour le contrat de release.
+Consultez l’[index des helpers](/fr/docs/reference/helper-index) pour les signatures et le [gel API](/fr/docs/reference/api-freeze) pour le contrat de release.

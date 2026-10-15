@@ -37,4 +37,4 @@ Values are sanitized by their field type when saved. Output escaping still belon
 echo esc_html($title);
 ```
 
-Next: [create a metabox](./first-metabox.md) or browse [all 53 field types](/fields).
+Next: [create a metabox](./first-metabox.md) or browse [all 53 field types](/docs/fields).

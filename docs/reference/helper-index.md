@@ -75,4 +75,4 @@ The 1.0 stable Public API v1 exposes these helpers:
 - `pu_heading(string $id, string $text, array $args = [])`
 - `pu_divider(string $id, array $args = [])`
 
-Do not parse this page as a replacement for PHP type information; it is a navigational index. Field-specific behavior is documented in [Fields](/fields).
+Do not parse this page as a replacement for PHP type information; it is a navigational index. Field-specific behavior is documented in [Fields](/docs/fields).
