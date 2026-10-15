@@ -12,4 +12,4 @@ if (pu_api_version() !== '1') {
 }
 ```
 
-See [Helper index](/reference/helper-index) for the complete signatures and [API freeze](/reference/api-freeze) for the release contract.
+See [Helper index](/docs/reference/helper-index) for the complete signatures and [API freeze](/docs/reference/api-freeze) for the release contract.
