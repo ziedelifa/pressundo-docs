@@ -10,7 +10,7 @@ Editable key/value mapping rows.
 <div className="pressundo-kv">
 <div><span>Helper</span><b>pu_key_value()</b></div>
 <div><span>Type</span><b>key_value</b></div>
-<div><span>Stored value</span><b>array of {key,value}</b></div>
+<div><span>Stored value</span><b>array of key/value rows</b></div>
 </div>
 
 ## Example
@@ -21,7 +21,7 @@ pu_key_value('headers', ['label' => 'Custom headers']);
 
 ## Stored value
 
-Pressundo stores this field as **array of {key,value}**. Composite fields keep structured arrays rather than opaque CSS strings, so your application can reuse individual values.
+Pressundo stores this field as an **array of key/value rows**. Composite fields keep structured arrays rather than opaque CSS strings, so your application can reuse individual values.
 
 ### Storage example
 
