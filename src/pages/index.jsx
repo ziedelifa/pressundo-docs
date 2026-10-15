@@ -37,8 +37,8 @@ export default function Home() {
                 <h1><Translate id="home.hero.title">Modern WordPress options, without legacy baggage.</Translate></h1>
                 <p className={styles.lead}><Translate id="home.hero.subtitle">Build modern options pages and metaboxes — or remove Vafpress from existing projects and migrate progressively.</Translate></p>
                 <div className={styles.actions}>
-                  <Link className="button button--primary button--lg" to="/getting-started/installation"><Translate id="home.getStarted">Get started</Translate></Link>
-                  <Link className="button button--secondary button--lg" to="/vafpress-migration"><Translate id="home.migrate">Migrate from Vafpress</Translate></Link>
+                  <Link className="button button--primary button--lg" to="/docs/getting-started/installation"><Translate id="home.getStarted">Get started</Translate></Link>
+                  <Link className="button button--secondary button--lg" to="/docs/vafpress-migration"><Translate id="home.migrate">Migrate from Vafpress</Translate></Link>
                 </div>
                 <div className={styles.metrics}>
                   <div><strong>53</strong><span><Translate id="home.metric.fields">field types</Translate></span></div>
@@ -67,14 +67,14 @@ export default function Home() {
           <div className="container">
             <div className={styles.sectionHeading}><span>CHOOSE YOUR PATH</span><h2><Translate id="home.path.title">Start new, or modernize what already works.</Translate></h2></div>
             <div className={styles.pathGrid}>
-              <article><span className={styles.badge}>NEW PROJECT</span><h3>Build with the modern API</h3><p>Start with <code>pu_options_page()</code>, <code>pu_metabox()</code> and the complete field library.</p><Link to="/getting-started/quick-start">Open the 5-minute quick start →</Link></article>
-              <article><span className={styles.badge}>EXISTING THEME</span><h3>Remove Vafpress safely</h3><p>Keep <code>VP_Option</code> and <code>VP_Metabox</code> temporarily, preserve existing data, then migrate one field at a time.</p><Link to="/vafpress-migration/remove-vafpress">Read the migration guide →</Link></article>
+              <article><span className={styles.badge}>NEW PROJECT</span><h3>Build with the modern API</h3><p>Start with <code>pu_options_page()</code>, <code>pu_metabox()</code> and the complete field library.</p><Link to="/docs/getting-started/quick-start">Open the 5-minute quick start →</Link></article>
+              <article><span className={styles.badge}>EXISTING THEME</span><h3>Remove Vafpress safely</h3><p>Keep <code>VP_Option</code> and <code>VP_Metabox</code> temporarily, preserve existing data, then migrate one field at a time.</p><Link to="/docs/vafpress-migration/remove-vafpress">Read the migration guide →</Link></article>
             </div>
           </div>
         </section>
 
         <section className={styles.cta}>
-          <div className="container"><div className={styles.ctaInner}><div><span>READY?</span><h2>Build your first Pressundo options page.</h2></div><Link className="button button--primary button--lg" to="/getting-started/quick-start">Quick start</Link></div></div>
+          <div className="container"><div className={styles.ctaInner}><div><span>READY?</span><h2>Build your first Pressundo options page.</h2></div><Link className="button button--primary button--lg" to="/docs/getting-started/quick-start">Quick start</Link></div></div>
         </section>
       </main>
     </Layout>
